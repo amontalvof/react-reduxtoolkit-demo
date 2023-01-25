@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CakeView from './components/CakeView';
 import IceCreamView from './components/IceCreamView';

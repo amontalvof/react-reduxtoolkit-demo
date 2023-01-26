@@ -1,5 +1,3 @@
-import React from 'react';
-
 const UserView = () => {
     return (
         <div style={{ margin: '20px' }}>

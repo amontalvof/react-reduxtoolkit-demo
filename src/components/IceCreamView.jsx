@@ -1,9 +1,13 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 const IceCreamView = () => {
+    const numOfIceCreams = useSelector(
+        (state) => state.iceCream.numOfIceCreams
+    );
     return (
         <div style={{ margin: '20px' }}>
-            <h2>Number of ice creams - </h2>
+            <h2>Number of ice creams - {numOfIceCreams}</h2>
             <button className="btn btn-info">Order ice cream</button>
             &nbsp;&nbsp;
             <button className="btn btn-danger">Restock ice creams</button>

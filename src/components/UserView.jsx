@@ -2,8 +2,8 @@ import React from 'react';
 
 const UserView = () => {
     return (
-        <div>
-            <h3>List of Users</h3>
+        <div style={{ margin: '20px' }}>
+            <h2>List of Users</h2>
         </div>
     );
 };

@@ -28,7 +28,5 @@ const iceCreamSlice = createSlice({
     },
 });
 
-export default {
-    iceCreamReducer: iceCreamSlice.reducer,
-    iceCreamActions: iceCreamSlice.actions,
-};
+export const iceCreamReducer = iceCreamSlice.reducer;
+export const iceCreamActions = iceCreamSlice.actions;

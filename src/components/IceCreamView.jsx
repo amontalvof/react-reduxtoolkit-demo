@@ -18,8 +18,16 @@ const IceCreamView = () => {
             >
                 Order ice cream
             </button>
+            <br />
+            <label
+                style={{ margin: '30px 10px 0', fontSize: '14px' }}
+                htmlFor="restock-input"
+            >
+                Restock Amount
+            </label>
             <input
-                style={{ margin: '20px 0 5px' }}
+                id="restock-input"
+                style={{ margin: '0 0 5px' }}
                 className="form-control"
                 type="number"
                 value={value}
